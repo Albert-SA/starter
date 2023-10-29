@@ -14,7 +14,7 @@ h1 {
     font-weight: 800;
     text-transform: uppercase;
     text-align: center;
-    background: var(--gradients-pink-100-text, linear-gradient(90deg, #4343FF 0%, #F96D6D 100%));
+    background: linear-gradient(90deg, #4343FF 50%, #F96D6D 55%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
