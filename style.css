@@ -62,7 +62,7 @@
     margin-right: 70px;  
 }
 
-.solutions__card__development {
+.solutions__card-development {
     width: 387px;
     min-height: 225px;
     padding: 22px;
@@ -71,14 +71,14 @@
     background: #FFF;
 }
 
-.solutions__card__header {
+.solutions__card-header {
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     text-transform: uppercase;
     margin-top: 22px;
 }
 
-.solutions__card__descr {
+.solutions__card-descr {
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     margin-top: 28px;
