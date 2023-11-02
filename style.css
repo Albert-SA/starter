@@ -19,39 +19,24 @@
     text-align: center;
     font-size: 46px;
     margin-top: 22px;
-    padding-left: 299px;
-    padding-right: 296px;
+    max-width: 845px;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 960px) {
     .solutions__header {
         font-size: 34px;
-        padding-left: 220px;
-        padding-right: 220px;
     }
 } 
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     .solutions__header {
         font-size: 28px;
-        padding-left: 180px;
-        padding-right: 180px;
     }
 } 
 
-@media (max-width: 500px) {
+@media (max-width: 540px) {
     .solutions__header {
         font-size: 24px;
-        padding-left: 120px;
-        padding-right: 120px;
-    }
-} 
-
-@media (max-width: 360px) {
-    .solutions__header {
-        font-size: 20px;
-        padding-left: 100px;
-        padding-right: 100px;
     }
 } 
 
@@ -66,7 +51,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-.container {
+.solutions__cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -77,38 +62,24 @@
     margin-right: 70px;  
 }
 
-.container__development {
+.solutions__card__development {
     width: 387px;
-    height: 225px;
+    min-height: 225px;
     padding: 22px;
     margin-top: 35px ;
     margin-right: 35px;
     background: #FFF;
 }
 
-.container__header {
+.solutions__card__header {
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     text-transform: uppercase;
     margin-top: 22px;
 }
 
-.container__descr {
+.solutions__card__descr {
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     margin-top: 28px;
 }
-
-@media (max-width: 550px) {
-    .container__descr {
-        font-size: 12px;
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 400px) {
-    .container__descr {
-        font-size: 10px;
-        margin-top: 12px;
-    }
-} 
