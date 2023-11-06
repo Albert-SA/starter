@@ -12,7 +12,7 @@
     padding-top: 80px;
 }
 
-.solutions__header {
+.solutions--header {
     display: block;
     margin: 0px auto;
     color:  #110C11;
@@ -23,24 +23,24 @@
 }
 
 @media (max-width: 960px) {
-    .solutions__header {
+    .solutions--header {
         font-size: 34px;
     }
 } 
 
 @media (max-width: 720px) {
-    .solutions__header {
+    .solutions--header {
         font-size: 28px;
     }
 } 
 
 @media (max-width: 540px) {
-    .solutions__header {
+    .solutions--header {
         font-size: 24px;
     }
 } 
 
-.solutions__subtitle {
+.solutions--subtitle {
     font-family: 'Nunito', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
@@ -71,14 +71,14 @@
     background: #FFF;
 }
 
-.solutions__card-header {
+.solutions__card--header {
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     text-transform: uppercase;
     margin-top: 22px;
 }
 
-.solutions__card-descr {
+.solutions__card--descr {
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     margin-top: 28px;
@@ -88,7 +88,7 @@
     padding: 10px 10px;
 }
 
-.glass__subtitle {
+.glass--subtitle {
     margin: 0 auto;
     text-align: left;
     color:  #333;
@@ -97,7 +97,7 @@
     padding-top: 60px;
 }
 
-.glass__descr {
+.glass--descr {
     margin: 0 auto;
     text-align: left;
     color:  #333;
@@ -106,7 +106,7 @@
     margin-top: 15px;
 }
 
-.glass_pictures {
+.glass__pictures {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -114,7 +114,7 @@
     margin-top: 33px;
 }
 
-.glass_img {
+.glass--avatar {
     width: 233px;
     min-height: 300px;
     margin-right: 15px;
@@ -126,15 +126,11 @@
     min-height: 197px;
     border-radius: 4px;
     background: #0079C8;
-    padding: 61px 0 69px 0;
+    padding: 61px 10px 69px 10px;
     margin-top: 50px;
 }
 
-.glass__footer {
-    padding: 10px 10px;
-}
-
-.footer__title {
+.footer--title {
     margin: 0 auto;
     text-align: left;
     max-width: 750px;
@@ -142,7 +138,7 @@
     color: #FFF;
 }
 
-.footer_header {
+.footer__header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -150,7 +146,7 @@
     margin-top: 33px;
 }
 
-.footer__descr {
+.footer--descr {
     display: inline-block;
     font-size: 35px;
     color: #FFF;
@@ -159,7 +155,7 @@
     margin-top: 20px;
 }
 
-.footer__btn {
+.footer--btn {
     display: inline-block;
     min-width: 261px;
     font-family: inherit;
@@ -176,11 +172,11 @@
     cursor: pointer;
 }
 
-.footer__btn:hover {
+.footer--btn:hover {
     background: #cedaf2;
 }
   
-.footer__btn:focus {
+.footer--btn:focus {
     outline: none;
     box-shadow: 0 0 0 4px #cbd6ee;
 }
