@@ -147,7 +147,6 @@
 }
 
 .footer--descr {
-    display: inline-block;
     font-size: 35px;
     color: #FFF;
     text-align: left;
@@ -156,7 +155,6 @@
 }
 
 .footer--btn {
-    display: inline-block;
     min-width: 261px;
     font-family: inherit;
     appearance: none;
