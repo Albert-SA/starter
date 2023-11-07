@@ -84,11 +84,11 @@
     margin-top: 28px;
 }
 
-.glass__title {
+.glasses__title {
     padding: 10px 10px;
 }
 
-.glass--subtitle {
+.glasses__subtitle {
     margin: 0 auto;
     text-align: left;
     color:  #333;
@@ -97,7 +97,7 @@
     padding-top: 60px;
 }
 
-.glass--descr {
+.glasses__descr {
     margin: 0 auto;
     text-align: left;
     color:  #333;
@@ -106,7 +106,7 @@
     margin-top: 15px;
 }
 
-.glass__pictures {
+.glasses__pictures {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -114,14 +114,14 @@
     margin-top: 33px;
 }
 
-.glass--avatar {
+.glasses__avatar {
     width: 233px;
     min-height: 300px;
     margin-right: 15px;
     padding: 15px 5px;
 }
 
-.glass__footer {
+.glasses__footer {
     margin: 0 auto;
     min-height: 197px;
     border-radius: 4px;
@@ -130,7 +130,7 @@
     margin-top: 50px;
 }
 
-.footer--title {
+.glasses__footer-title {
     margin: 0 auto;
     text-align: left;
     max-width: 750px;
@@ -138,7 +138,7 @@
     color: #FFF;
 }
 
-.footer__header {
+.glasses__footer-header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -146,15 +146,16 @@
     margin-top: 33px;
 }
 
-.footer--descr {
-    font-size: 35px;
+.glasses__footer-descr {
+    font-size: 28px;
     color: #FFF;
     text-align: left;
     max-width: 500px;
     margin-top: 20px;
+    padding-right: 30px;
 }
 
-.footer--btn {
+.glasses__footer-btn {
     min-width: 261px;
     font-family: inherit;
     appearance: none;
@@ -170,11 +171,11 @@
     cursor: pointer;
 }
 
-.footer--btn:hover {
+.glasses__footer-btn:hover {
     background: #cedaf2;
 }
   
-.footer--btn:focus {
+.glasses__footer-btn:focus {
     outline: none;
     box-shadow: 0 0 0 4px #cbd6ee;
 }
