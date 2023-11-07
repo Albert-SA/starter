@@ -97,7 +97,7 @@
     grid-template-rows: 196px 191px;
 }
 
-.amway-card__header {
+.amway__card-header {
     margin-right: 45px;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -105,7 +105,7 @@
     grid-row-end: 3;
 }
 
-.amway-card__income {
+.amway__card-income {
     padding: 22px;
     background: #F7F7F7;
     border: 1px solid #EDEDED;
@@ -116,16 +116,20 @@
     grid-row-end: 2;
 }
 
-.amway-card__income--img, .amway-card__sale--img, .amway-card__business--img {
+.amway__card-income-img, 
+.amway__card-sale-img, 
+.amway__card-business-img {
     display: block;
     margin: 0 auto;
 }
 
-.amway-card__business--img {
+.amway__card-business-img {
     margin-top: 78px;
 }
 
-.amway-card__income--subtitle, .amway-card__sale--subtitle, .amway-card__business--subtitle {
+.amway__card-income-subtitle, 
+.amway__card-sale-subtitle, 
+.amway__card-business-subtitle {
     color: #56565A;
     text-align: center;
     font-size: 16px;
@@ -136,11 +140,13 @@
     padding-bottom: 15px;
 }
 
-.amway-card__business--subtitle {
+.amway__card-business-subtitle {
     max-width: 226px;
 }
 
-.amway-card__income--descr, .amway-card__sale--descr, .amway-card__business--descr {
+.amway__card-income-descr, 
+.amway__card-sale-descr, 
+.amway__card-business-descr {
     color: #56565A;
     text-align: center;
     font-size: 14px;
@@ -149,7 +155,7 @@
     margin-top: 15px;
 }
 
-.amway-card__sale {
+.amway__card-sale {
     padding: 22px;
     background: #F7F7F7;
     border: 1px solid #EDEDED;
@@ -160,7 +166,7 @@
     grid-row-end: 3;
 }
 
-.amway-card__business {
+.amway__card-business {
     padding: 22px;
     background: #F7F7F7;
     border: 1px solid #EDEDED;
@@ -171,20 +177,21 @@
     grid-row-end: 3;
 }
 
-.amway-card__header--subtitle {
+.amway__card-subtitle {
     margin-top: 125px;
     font-family: 'Nunito', sans-serif;
     font-size: 32px;
     color: #56565A;
 }
 
-.amway-card__header--descr {
+.amway__card-descr {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     margin-top: 15px;
 }
 
-.amway-card__header--btn-first, .amway-card__header--btn-second {
+.amway__card-btn-first, 
+.amway__card-btn-second {
     min-width: 142px;
     font-family: inherit;
     appearance: none;
@@ -200,16 +207,18 @@
     cursor: pointer;
 }
 
-.amway-card__header--btn-second {
+.amway__card-btn-second {
     width: 131px;
     margin-right: 0;
 }
 
-.amway-card__header--btn-first:hover, .amway-card__header--btn-second:hover {
+.amway__card-btn-first:hover, 
+.amway__card-btn-second:hover {
     background: #1d49aa;
 }
   
-.amway-card__header--btn-first:focus, .amway-card__header--btn-second:focus {
+.amway__card-btn-first:focus, 
+.amway__card-btn-second:focus {
     outline: none;
     box-shadow: 0 0 0 4px #cbd6ee;
 }
