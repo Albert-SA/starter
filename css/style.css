@@ -372,7 +372,7 @@
 .progress__video-number,
 .progress__test-number {
     font-size: 14px;
-    flex: 14vw 0 0;
+    flex: 15vw 0 0;
     vertical-align: middle;
     text-align: right;
 }
