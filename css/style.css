@@ -320,35 +320,59 @@
 }
 
 .progress__social-media {
+    margin: 10px auto;
     display: flex;
-    padding: 24px 32px;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
-    align-self: stretch;
+    max-width: 364px;
+    padding: 24px 32px;
+    background: #FFF;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
 }
 
-.progress--header {
+.progress__header {
     font-size: 14px;
     color: #515151;
 }
 
-.progress--descr {
+.progress__descr {
     font-size: 18px;
     color: #061B36;
 }
 
-.progress--widjet {
+.progress__percent {
     font-size: 16px;
     color: #77BB2F;
 }
 
-.progress--video {
+.progress__line {
+    margin-top: 8px;
+}
+
+.progress__video,
+.progress__test {
+    display: flex;
+    gap: 10px;
+}
+
+.progress__video-img,
+.progress__test-img {
+    vertical-align: middle;
+}
+
+.progress__video-text
+.progress__test-text {
+    vertical-align: middle;
     font-size: 14px;
     color: #061B36;
 }
 
-.progress--test {
+.progress__video-number,
+.progress__test-number {
     font-size: 14px;
-    color: #061B36;
+    flex: 14vw 0 0;
+    vertical-align: middle;
+    text-align: right;
 }
