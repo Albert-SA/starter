@@ -347,8 +347,20 @@
     color: #77BB2F;
 }
 
-.progress__line {
+.progress__bar {
+    background: #EEF3F7;
+    border-radius: 13px;
+    width: 300px;
+}
+
+.progress__bar:after {
     margin-top: 8px;
+    content: '';
+    display: block;
+    background: #77BB2F;
+    width: 46%; /*Процент прохождения*/
+    height: 4px;
+    border-radius: 9px;
 }
 
 .progress__video,
